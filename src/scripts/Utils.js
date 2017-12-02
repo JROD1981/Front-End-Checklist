@@ -57,7 +57,7 @@ class Utils {
     return detailsContainer;
   }
 
-  /* eslint-disable */
+  /* eslint-disable for some*/
   getClosest(elem, selector) {
     if (!Element.prototype.matches) {
       Element.prototype.matches =
